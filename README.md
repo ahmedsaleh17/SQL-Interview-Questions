@@ -33,6 +33,10 @@ This repository serves as a personal learning and reference collection for SQL i
 |:--:|:-----------------------:|:---------: |:-----------:|
 | 01 | [Histogram of Tweets](https://datalemur.com/questions/sql-histogram-tweets)| Easy | [Solution](./Solutions/Histogram-of-tweets.sql) |
 | 02 | [Data Science Skills](https://datalemur.com/questions/matching-skills)| Easy | [Solution](./Solutions/DataScience-skill.sql) |
+| 03 | [Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes)| Easy | [Solution](./Solutions/page-with-no-likes.sql) |
+| 04 | [Unfinished Parts](https://datalemur.com/questions/tesla-unfinished-parts)| Easy | [Solution](./Solutions/unfinished-parts.sql) |
+| 05 | [Laptop vs. Mobile Viewership](https://datalemur.com/questions/laptop-mobile-viewership)| Easy | [Solution](./Solutions/laptop-mobile-viewership.sql) |
+| 06 | [Average Post Hiatus (Part 1)](https://datalemur.com/questions/sql-average-post-hiatus-1)| Easy | [Solution](./Solutions/avg-post.sql) |
 
 
 
