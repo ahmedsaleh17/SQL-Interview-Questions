@@ -39,6 +39,7 @@ This repository serves as a personal learning and reference collection for SQL i
 | 06 | [Average Post Hiatus (Part 1)](https://datalemur.com/questions/sql-average-post-hiatus-1)| Easy | [Solution](./Solutions/avg-post.sql) |
 | 07 | [Teams Power Users](https://datalemur.com/questions/teams-power-users)| Easy | [Solution](./Solutions/teams-power-users.sql) |
 | 08 | [Duplicate Job Listings](https://datalemur.com/questions/duplicate-job-listings)| Easy | [Solution](./Solutions/duplicate-job-listings.sql) |
+| 09 | [Cities With Completed Trades](https://datalemur.com/questions/completed-trades)| Easy | [Solution](./Solutions/cities-with-completed-trades.sql) |
 
 
 
