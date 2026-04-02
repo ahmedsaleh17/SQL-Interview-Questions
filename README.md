@@ -41,6 +41,7 @@ This repository serves as a personal learning and reference collection for SQL i
 | 12 | [Final Account Balance](https://datalemur.com/questions/final-account-balance)| Easy | [Solution](./Solutions/final-account-balance.sql) |
 | 13 | [App Click-through Rate (CTR)](https://datalemur.com/questions/click-through-rate)| Easy | [Solution](./Solutions/click-through-rate.sql) |
 | 14 | [IBM db2 Product Analytics](https://datalemur.com/questions/sql-ibm-db2-product-analytics)| Easy | [Solution](./Solutions/ibm-db2-product-analysis.sql) |
+| 15 | [Cards Issued Difference](https://datalemur.com/questions/cards-issued-difference)| Easy | [Solution](./Solutions/cards_issued_difference.sql) |
 
 
 
