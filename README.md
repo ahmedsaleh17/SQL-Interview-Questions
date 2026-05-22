@@ -115,6 +115,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 31 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
 | 32 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
 | 33 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 34 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
 
 
 ## Progress
