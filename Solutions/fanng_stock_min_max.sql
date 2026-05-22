@@ -65,3 +65,19 @@ ON highest_open.ticker = lowest_open.ticker
 
   
   
+----------------------------------------------------------------------
+
+
+
+-- ALTERNATIVE: Max and Min via Combined Aggregate Windowing
+-- Best when an index exists on (ticker, open)
+SELECT DISTINCT ON (ticker)
+  ticker,
+  FIRST_VALUE(TO_CHAR(date, 'Mon-YYYY')) OVER(PARTITION BY ticker ORDER BY open DESC) as highest_mth,
+  FIRST_VALUE(open) OVER(PARTITION BY ticker ORDER BY open DESC) as highest_open,
+  FIRST_VALUE(TO_CHAR(date, 'Mon-YYYY')) OVER(PARTITION BY ticker ORDER BY open ASC) as lowest_mth,
+  FIRST_VALUE(open) OVER(PARTITION BY ticker ORDER BY open ASC) as lowest_open
+FROM stock_prices
+ORDER BY ticker;
+
+
