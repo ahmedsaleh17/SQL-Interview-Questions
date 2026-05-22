@@ -133,3 +133,10 @@ ON transactions  REBUILD
 
 -- So, Improving the performance of queries doesn't end with creating Indexes 
 -- it's all about staying proactive so Monitor the usage of indexes, check missing indexes and make sure the statistics of database are always updated
+
+
+USE TestDB;
+
+SELECT
+	COUNT(*)
+FROM transactions

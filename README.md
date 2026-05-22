@@ -112,6 +112,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 28 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
 | 29 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
 | 30 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
+| 31 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
 
 
 ## Progress
