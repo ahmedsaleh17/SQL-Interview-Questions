@@ -114,6 +114,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 30 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
 | 31 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
 | 32 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 33 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
 
 
 ## Progress
