@@ -1,6 +1,6 @@
 -- switch database 
---USE CarrefourOLTP ; 
-USE TestDB;
+USE CarrefourOLTP ; 
+-- USE TestDB;
 
 
 -- List all indexes on a specific table 
@@ -73,7 +73,19 @@ ORDER BY  ColumnCount DESC
 
 
 
--- Update Statistics -- 
+-- Monitor and Update Statistics --
+/* The DataBase Engine usually use statistics in order to understand which index should be used 
+for our query and if these statistics are not up-to-date db engine are gonna make wrong desisions 
+
+when db engine query data from table, there are different ways of scan 
+- table scan 
+- index scan 
+- index seek 
+
+and in order for database to decide which method used to load data, it gonna go and read the stats of the table.
+
+*/
+
 
 SELECT
 	SCHEMA_NAME(t.schema_id) AS SchemaName, 
@@ -88,12 +100,12 @@ FROM sys.stats AS s
 JOIN sys.tables AS t
 ON s.object_id = t.object_id 
 CROSS APPLY sys.dm_db_stats_properties(s.object_id, s.stats_id) AS Sp
-ORDER BY ModificationSinceLastUpdate
+ORDER BY last_updated DESC
 
 
 -- udpate specific statistics 
 
-UPDATE STATISTICS transactions  _WA_Sys_00000001_48CFD27E; 
+UPDATE STATISTICS transactions  ix_transactions_customer; 
 
 
 
@@ -105,19 +117,60 @@ UPDATE STATISTICS transactions
 
 EXEC sp_updatestats
 
+/* updating statistics methodology : 
+1- weekly job to update statistics on weekends 
+2- after migrating data */
 
 
- 
 
-/* Fragmentation Methods: 
 
-- Reorganize: Defragment leaf nodes to keep them sorted
+
+
+/* 
+What is Fragmentation ?
+- Unused spaces in data pages 
+- Data pages are out of order 
+and this leads to inefficient use of the storage and as well as gonna slow down your queries 
+
+
+Fragmentation Methods: 
+
+- Reorganize: Defragment leaf nodes to keep them sorted (light operation)
 if avg_fragmentation_in_percent between 10% - 30%
 
-- Rebuild: Recreate index from scratch 
+- Rebuild: Recreate index from scratch (heavy operation)
 if avg_fragmentation_in_percent greater than 30%
 
 */
+
+
+-- How to find any fragmentations issues in our indexes ?
+-- we need to check the health of our indexes in the database
+
+
+SELECT 
+	tab.name TableName,
+	idx.name IndexName, 
+	stats.avg_fragmentation_in_percent 
+FROM sys.dm_db_index_physical_stats(DB_ID(), null, null, null, 'LIMITED') AS stats 
+JOIN sys.indexes AS  idx
+ON idx.object_id = stats.object_id 
+and idx.index_id = stats.index_id
+JOIN sys.tables as tab 
+on tab.object_id = idx.object_id
+ORDER BY stats.avg_fragmentation_in_percent DESC
+
+/* avg_fragmentation_in_percent 
+indicate how out-of-order pages are with in the index 
+- 0%  means no fragmentation (perfect)
+- 100 % means index is completely fragmented(out of order)
+
+When To Defragment?
+- < 10%  no action needed 
+- 10 - 30 % Reorganize
+- > 30% Rebuild
+*/
+
 
 -- How to Reorganize 
 
@@ -127,16 +180,14 @@ ON transactions  REORGANIZE
 
 -- How to Rebuild
 
-ALTER INDEX Idx_transactions_branch_dt 
+ALTER INDEX ix_transactions_branch_dt 
 ON transactions  REBUILD
+
+ALTER INDEX ix_transaction_items_product 
+ON transaction_items REBUILD
+
+
 
 
 -- So, Improving the performance of queries doesn't end with creating Indexes 
 -- it's all about staying proactive so Monitor the usage of indexes, check missing indexes and make sure the statistics of database are always updated
-
-
-USE TestDB;
-
-SELECT
-	COUNT(*)
-FROM transactions
