@@ -1,6 +1,6 @@
 # SQL Learning Materials - Complete Course Guide
 
-A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 14 comprehensive modules designed to build your SQL skills from the ground up.
+A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 16 comprehensive modules designed to build your SQL skills from the ground up.
 
 ## 📚 Course Overview
 
@@ -22,6 +22,8 @@ This course is organized as a step-by-step progression through SQL concepts:
 | 12 | [CTAS (Create Table As Select)](#12-sql-ctas) | Creating Tables from Queries, Data Copy | Advanced |
 | 13 | [Temporary Tables](#13-sql-temptables) | Local Temp Tables, Global Temp Tables, Scope | Advanced |
 | 14 | [Indexes](#14-sql-indexes) | Index Types, Query Optimization, Index Strategies | Advanced |
+| 15 | [Index Maintenance](#15-sql-index-maintenance) | Rebuild, Reorganize, Fragmentation, Statistics | Advanced |
+| 16 | [Data Partitioning](#16-sql-data-partitioning) | Partition Functions, Partition Schemes, Partition Elimination | Advanced |
 
 ## 🗂️ Database Schema
 
@@ -289,6 +291,35 @@ Optimize query performance:
 
 ---
 
+### 15. SQL Index Maintenance
+**File:** `15_sql_index_maintenance.sql`
+
+Keep indexes healthy and performant over time:
+- Rebuild vs reorganize
+- Fragmentation analysis
+- Statistics updates
+- Maintenance schedules
+- Monitoring index health
+
+**Use Cases:** Performance tuning, ongoing database maintenance
+
+---
+
+### 16. SQL Data Partitioning
+**File:** `16_sql_data_partitioning.sql`
+
+Organize large tables into smaller logical segments:
+- Horizontal partitioning concepts
+- Partition functions and schemes
+- Range-based partitioning
+- Partition elimination for better performance
+- Maintenance of partitioned data
+- Use cases for large-scale datasets
+
+**Use Cases:** Large table management, improve query performance, easier maintenance
+
+---
+
 ## 🚀 Learning Path Recommendations
 
 ### Beginner (1-2 weeks)
@@ -310,6 +341,8 @@ Optimize query performance:
 12. Learn **12_sql_CTAS.sql** - Data management
 13. Implement **13_sql_TempTables.sql** - Performance techniques
 14. Optimize with **14_sql_indexes.sql** - Query performance
+15. Maintain **15_sql_index_maintenance.sql** - Index health
+16. Apply **16_sql_data_partitioning.sql** - Large-scale data management
 
 ## 💡 Best Practices
 
