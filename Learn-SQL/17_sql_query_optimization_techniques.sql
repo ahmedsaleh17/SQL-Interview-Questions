@@ -383,23 +383,26 @@ GROUP BY FORMAT(transaction_dt, 'MMM yyyy')
 
 --   SUBQUERY - BEST PRACTICES  --  
 
+-- Tip 17: Avoid using IN operator and try to use JOIN OR EXISTS Instead 
+
+
 -- SHOW ORDERS FOR CUSTOMERS IN USA 
 
 USE SalesDB ; 
 
--- Use Join with Small tables 
+SET STATISTICS IO, TIME ON;
+
+
+-- JOIN (Best practice: If the performance equals to Exists )
 SELECT
-    O.OrderID,
-    O.OrderDate,
-    O.CustomerID, 
-    O.Sales
+    O.*
 FROM Sales.Orders O 
 JOIN Sales.Customers C  
 ON O.CustomerID = C.CustomerID 
 AND C.Country = 'USA'
 
 
--- USE EXISTS WITH SMALL TABLE
+-- EXISTS (Best Practice: use it for large table, because it stops at first match and avoid data duplication )
 SELECT
     *
 FROM Sales.Orders O
@@ -424,3 +427,43 @@ WHERE CustomerID IN
     FROM Sales.Customers 
     WHERE Country = 'USA'
 )
+
+
+
+------------
+
+
+-- Tip 18: Avoid Redundant Logic In Your query
+
+-- Bad practice 
+SELECT  
+    EmployeeID, 
+    FirstName, 
+    'Above Average' status
+FROM Sales.Employees
+WHERE Salary > (SELECT AVG(Salary) FROM Sales.Employees)
+
+UNION ALL  
+
+SELECT  
+    EmployeeID, 
+    FirstName, 
+    'Below Average' 
+FROM Sales.Employees
+WHERE Salary < (SELECT AVG(Salary) FROM Sales.Employees)
+
+-- good practice 
+SELECT
+    EmployeeID, 
+    FirstName, 
+    CASE 
+        WHEN Salary > AVG(Salary) OVER() THEN 'Above Average'
+        WHEN Salary < AVG(Salary) OVER() THEN 'Below Average'
+        ELSE 'Average'
+    END
+FROM Sales.Employees
+
+
+
+
+SET STATISTICS IO, TIME OFF;
