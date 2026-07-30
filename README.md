@@ -6,7 +6,7 @@ A comprehensive SQL learning and interview preparation repository combining foun
 
 ```
 SQL-problemsolving/
-├── Learn-SQL/                          # 📚 Foundational Learning Materials (17 Modules)
+├── Learn-SQL/                          # 📚 Foundational Learning Materials (18 Modules)
 │   ├── 01_sql_basics.sql               # SELECT, WHERE, ORDER BY, DISTINCT, LIMIT
 │   ├── 02_sql_intermediate.sql         # JOINs, GROUP BY, HAVING, Aggregations
 │   ├── 03_sql_string_functions.sql     # Text manipulation functions
@@ -24,6 +24,7 @@ SQL-problemsolving/
 │   ├── 15_sql_index_maintenance.sql    # Index maintenance strategies
 │   ├── 16_sql_data_partitioning.sql    # Data partitioning concepts and techniques
 │   ├── 17_sql_query_optimization_techniques.sql # Query optimization techniques
+│   ├── 18_sql_stored_procedure.sql     # Stored procedures and reusable database logic
 │   └── README.md                       # Complete learning guide
 │
 ├── Solutions/                          # 🎯 DataLemur Interview Question Solutions (20+ Problems)
@@ -36,7 +37,7 @@ SQL-problemsolving/
 
 ## Purpose
 
-✅ **Structured Learning** - 17 progressive modules from beginner to advanced SQL  
+✅ **Structured Learning** - 18 progressive modules from beginner to advanced SQL  
 ✅ **Interview Preparation** - 20+ real interview questions with solutions  
 ✅ **Skill Development** - Master SQL from basics to optimization techniques  
 ✅ **Reference Material** - Quick access to SQL patterns and best practices  
@@ -133,12 +134,12 @@ Keep track of completed questions above in the table.
 ## 📚 Related Resources
 
 ### Learn-SQL Folder
-- **[Complete Learning Guide](./Learn-SQL/README.md)** - Detailed descriptions of all 16 modules
+- **[Complete Learning Guide](./Learn-SQL/README.md)** - Detailed descriptions of all 18 modules
 - **[Module 01: SQL Basics](./Learn-SQL/01_sql_basics.sql)** - Foundation concepts
 - **[Module 02: SQL Intermediate](./Learn-SQL/02_sql_intermediate.sql)** - JOINs and aggregations
 - **[Modules 03-05: Functions](./Learn-SQL/)** - String, DateTime, and NULL functions
 - **[Modules 06-08: Window Functions](./Learn-SQL/)** - Advanced analytics
-- **[Modules 09-17: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, and Query Optimization
+- **[Modules 09-18: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, and Stored Procedures
 
 ### Solutions Folder
 - **[20+ DataLemur Solutions](./Solutions/)** - Interview problem solutions with explanations
@@ -156,7 +157,7 @@ Keep track of completed questions above in the table.
 - Apply window functions to interview problems
 
 ### Advanced Path (3-5 weeks)
-- Master modules 9-17: Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, and Query Optimization
+- Master modules 9-18: Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, and Stored Procedures
 - Solve complex interview questions
 - Optimize queries using indexes and execution plans
 

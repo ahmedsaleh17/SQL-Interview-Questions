@@ -1,6 +1,6 @@
 # SQL Learning Materials - Complete Course Guide
 
-A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 17 comprehensive modules designed to build your SQL skills from the ground up.
+A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 18 comprehensive modules designed to build your SQL skills from the ground up.
 
 ## 📚 Course Overview
 
@@ -25,6 +25,7 @@ This course is organized as a step-by-step progression through SQL concepts:
 | 15 | [Index Maintenance](#15-sql-index-maintenance) | Rebuild, Reorganize, Fragmentation, Statistics | Advanced |
 | 16 | [Data Partitioning](#16-sql-data-partitioning) | Partition Functions, Partition Schemes, Partition Elimination | Advanced |
 | 17 | [Query Optimization Techniques](#17-sql-query-optimization-techniques) | Execution Plans, Query Tuning, Performance Patterns | Advanced |
+| 18 | [Stored Procedures](#18-sql-stored-procedures) | CREATE PROCEDURE, Parameters, Logic, Transactions, Error Handling | Advanced |
 
 ## 🗂️ Database Schema
 
@@ -336,6 +337,21 @@ Improve query efficiency and overall database performance:
 
 ---
 
+### 18. SQL Stored Procedures
+**File:** `18_sql_stored_procedure.sql`
+
+Create reusable database logic with stored procedures:
+- CREATE PROCEDURE syntax
+- Input and output parameters
+- Conditional logic and control flow
+- Transactions and error handling
+- Reusable business rules and automation
+- Security and maintenance benefits
+
+**Use Cases:** Encapsulating logic, repeatable operations, application integration
+
+---
+
 ## 🚀 Learning Path Recommendations
 
 ### Beginner (1-2 weeks)
@@ -360,6 +376,7 @@ Improve query efficiency and overall database performance:
 15. Maintain **15_sql_index_maintenance.sql** - Index health
 16. Apply **16_sql_data_partitioning.sql** - Large-scale data management
 17. Refine **17_sql_query_optimization_techniques.sql** - Performance tuning and execution planning
+18. Explore **18_sql_stored_procedure.sql** - Reusable database logic and automation
 
 ## 💡 Best Practices
 
