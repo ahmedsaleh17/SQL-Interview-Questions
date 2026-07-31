@@ -1,6 +1,6 @@
 # SQL Learning Materials - Complete Course Guide
 
-A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 18 comprehensive modules designed to build your SQL skills from the ground up.
+A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 19 comprehensive modules designed to build your SQL skills from the ground up.
 
 ## 📚 Course Overview
 
@@ -26,6 +26,7 @@ This course is organized as a step-by-step progression through SQL concepts:
 | 16 | [Data Partitioning](#16-sql-data-partitioning) | Partition Functions, Partition Schemes, Partition Elimination | Advanced |
 | 17 | [Query Optimization Techniques](#17-sql-query-optimization-techniques) | Execution Plans, Query Tuning, Performance Patterns | Advanced |
 | 18 | [Stored Procedures](#18-sql-stored-procedures) | CREATE PROCEDURE, Parameters, Logic, Transactions, Error Handling | Advanced |
+| 19 | [SQL Triggers](#19-sql-triggers) | AFTER/INSTEAD OF Triggers, Auditing, Business Rules, Automated Actions | Advanced |
 
 ## 🗂️ Database Schema
 
@@ -352,6 +353,21 @@ Create reusable database logic with stored procedures:
 
 ---
 
+### 19. SQL Triggers
+**File:** `19_sql_triggers.sql`
+
+Automate database actions in response to table events:
+- CREATE TRIGGER syntax
+- AFTER INSERT triggers
+- Auditing and logging changes
+- Enforcing business rules automatically
+- Using the `inserted` pseudo-table
+- Common trigger use cases in real systems
+
+**Use Cases:** Audit logging, data validation, automated follow-up actions
+
+---
+
 ## 🚀 Learning Path Recommendations
 
 ### Beginner (1-2 weeks)
@@ -377,6 +393,7 @@ Create reusable database logic with stored procedures:
 16. Apply **16_sql_data_partitioning.sql** - Large-scale data management
 17. Refine **17_sql_query_optimization_techniques.sql** - Performance tuning and execution planning
 18. Explore **18_sql_stored_procedure.sql** - Reusable database logic and automation
+19. Study **19_sql_triggers.sql** - Automate actions and maintain audit logs
 
 ## 💡 Best Practices
 
