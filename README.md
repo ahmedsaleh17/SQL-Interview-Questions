@@ -28,7 +28,7 @@ SQL-problemsolving/
 │   ├── 19_sql_triggers.sql             # Triggers for auditing and automated actions
 │   └── README.md                       # Complete learning guide
 │
-├── Solutions/                          # 🎯 DataLemur Interview Question Solutions (20+ Problems)
+├── Solutions/                          # 🎯 Interview Question Solutions (40+ Problems)
 │   └── [Various .sql solution files]
 │
 ├── Resources/                          # 📖 Additional reference materials
@@ -118,15 +118,21 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 29 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
 | 30 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
 | 31 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
-| 32 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
-| 33 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 32 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
+| 33 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
 | 34 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
 | 35 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
 | 36 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
 | 37 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
-| 38 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
+| 38 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
 | 40 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
+| 41 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
 
+### Recently Added Solutions
+- [Best-Selling Product](./Solutions/best-selling-product.sql)
+- [Swapped Food Delivery](./Solutions/swapped_food_delivery.sql)
+- [International Call Percentage](./Solutions/international_call_percentage.sql)
+- [Cloud Costs Analysis](./Solutions/cloud_costs_analysis.sql)
 
 ## Progress
 
@@ -143,7 +149,7 @@ Keep track of completed questions above in the table.
 - **[Modules 09-19: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, and Triggers
 
 ### Solutions Folder
-- **[20+ DataLemur Solutions](./Solutions/)** - Interview problem solutions with explanations
+- **[40+ SQL Solutions](./Solutions/)** - Interview problem solutions with explanations
 
 ## 🎯 Learning Recommendations
 
