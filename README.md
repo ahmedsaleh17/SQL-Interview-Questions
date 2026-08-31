@@ -129,7 +129,8 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 41 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
 | 42 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
 | 43 | [Where the Fleet Lives](https://datadriven.io/problems/nodes_in_key_regions)| Medium | [Solution](./Solutions/nodes_in_keys_regions.sql) |
-| 44 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
+| 44 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
+| 45 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
 
 ### Recently Added Solutions
 - [Best-Selling Product](./Solutions/best-selling-product.sql)
