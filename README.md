@@ -28,7 +28,7 @@ SQL-problemsolving/
 │   ├── 19_sql_triggers.sql             # Triggers for auditing and automated actions
 │   └── README.md                       # Complete learning guide
 │
-├── Solutions/                          # 🎯 Interview Question Solutions (40+ Problems)
+├── Solutions/                          # 🎯 Interview Question Solutions (46 Problems)
 │   └── [Various .sql solution files]
 │
 ├── Resources/                          # 📖 Additional reference materials
@@ -39,7 +39,7 @@ SQL-problemsolving/
 ## Purpose
 
 ✅ **Structured Learning** - 19 progressive modules from beginner to advanced SQL  
-✅ **Interview Preparation** - 20+ real interview questions with solutions  
+✅ **Interview Preparation** - 46 real interview questions with solutions  
 ✅ **Skill Development** - Master SQL from basics to optimization techniques  
 ✅ **Reference Material** - Quick access to SQL patterns and best practices  
 ✅ **Hands-On Practice** - Learn concepts then apply them to interview problems  
@@ -197,6 +197,7 @@ Keep track of completed questions above in the table.
 - **Practice Interview Questions**: [Solutions Folder](./Solutions/)
 - **View Database Schema**: [Schema Diagram](./Learn-SQL/README.md#-database-schema)
 - **DataLemur Platform**: [https://datalemur.com/](https://datalemur.com/)
+- **DataDriven Platform**: [https://datadriven.io/](https://datadriven.io/)
 
 ---
 
