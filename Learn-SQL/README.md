@@ -1,6 +1,6 @@
 # SQL Learning Materials - Complete Course Guide
 
-A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 19 comprehensive modules designed to build your SQL skills from the ground up.
+A structured, progressive SQL learning curriculum covering everything from basics to advanced techniques. This folder contains 20 comprehensive modules designed to build your SQL skills from the ground up.
 
 ## 📚 Course Overview
 
@@ -27,6 +27,7 @@ This course is organized as a step-by-step progression through SQL concepts:
 | 17 | [Query Optimization Techniques](#17-sql-query-optimization-techniques) | Execution Plans, Query Tuning, Performance Patterns | Advanced |
 | 18 | [Stored Procedures](#18-sql-stored-procedures) | CREATE PROCEDURE, Parameters, Logic, Transactions, Error Handling | Advanced |
 | 19 | [SQL Triggers](#19-sql-triggers) | AFTER/INSTEAD OF Triggers, Auditing, Business Rules, Automated Actions | Advanced |
+| 20 | [Transactions](#20-transactions) | BEGIN TRANSACTION, COMMIT, ROLLBACK, ACID Properties, Concurrency | Advanced |
 
 ## 🗂️ Database Schema
 
@@ -368,6 +369,21 @@ Automate database actions in response to table events:
 
 ---
 
+### 20. Transactions
+**File:** `20_transactions.sql`
+
+Manage groups of SQL statements as one logical unit of work:
+- BEGIN TRANSACTION / COMMIT / ROLLBACK
+- ACID properties: Atomicity, Consistency, Isolation, Durability
+- Write-Ahead Logging (WAL)
+- Implicit transactions and manual transaction control
+- Transaction boundaries for data integrity
+- Recovery and locking behavior in SQL Server
+
+**Use Cases:** Financial updates, safe batch processing, atomic business operations
+
+---
+
 ## 🚀 Learning Path Recommendations
 
 ### Beginner (1-2 weeks)
@@ -394,6 +410,7 @@ Automate database actions in response to table events:
 17. Refine **17_sql_query_optimization_techniques.sql** - Performance tuning and execution planning
 18. Explore **18_sql_stored_procedure.sql** - Reusable database logic and automation
 19. Study **19_sql_triggers.sql** - Automate actions and maintain audit logs
+20. Review **20_transactions.sql** - Understand atomicity, rollback safety, and database consistency
 
 ## 💡 Best Practices
 

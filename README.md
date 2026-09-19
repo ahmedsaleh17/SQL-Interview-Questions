@@ -6,7 +6,7 @@ A comprehensive SQL learning and interview preparation repository combining foun
 
 ```
 SQL-problemsolving/
-├── Learn-SQL/                          # 📚 Foundational Learning Materials (19 Modules)
+├── Learn-SQL/                          # 📚 Foundational Learning Materials (20 Modules)
 │   ├── 01_sql_basics.sql               # SELECT, WHERE, ORDER BY, DISTINCT, LIMIT
 │   ├── 02_sql_intermediate.sql         # JOINs, GROUP BY, HAVING, Aggregations
 │   ├── 03_sql_string_functions.sql     # Text manipulation functions
@@ -26,6 +26,7 @@ SQL-problemsolving/
 │   ├── 17_sql_query_optimization_techniques.sql # Query optimization techniques
 │   ├── 18_sql_stored_procedure.sql     # Stored procedures and reusable database logic
 │   ├── 19_sql_triggers.sql             # Triggers for auditing and automated actions
+│   ├── 20_transactions.sql            # Transactions, ACID compliance, and rollback safety
 │   └── README.md                       # Complete learning guide
 │
 ├── Solutions/                          # 🎯 Interview Question Solutions (46 Problems)
@@ -38,7 +39,7 @@ SQL-problemsolving/
 
 ## Purpose
 
-✅ **Structured Learning** - 19 progressive modules from beginner to advanced SQL  
+✅ **Structured Learning** - 20 progressive modules from beginner to advanced SQL  
 ✅ **Interview Preparation** - 46 real interview questions with solutions  
 ✅ **Skill Development** - Master SQL from basics to optimization techniques  
 ✅ **Reference Material** - Quick access to SQL patterns and best practices  
@@ -47,7 +48,7 @@ SQL-problemsolving/
 ## How to Use This Repository
 
 ### 🎓 For Learning SQL Fundamentals
-1. Start with [Learn-SQL folder](./Learn-SQL/) - Contains 19 structured modules
+1. Start with [Learn-SQL folder](./Learn-SQL/) - Contains 20 structured modules
 2. Follow the progressive difficulty path from basics to advanced
 3. Work through examples in each module file
 4. Understand the schema relationships (see [Schema Diagram](./Learn-SQL/README.md#-database-schema))
@@ -62,9 +63,10 @@ SQL-problemsolving/
 
 ### 🔄 Integrated Learning Path
 1. **Phase 1 - Fundamentals** (Week 1-2): Complete modules 1-5 from [Learn-SQL](./Learn-SQL/)
-2. **Phase 2 - Advanced Techniques** (Week 3-4): Complete modules 6-18 from [Learn-SQL](./Learn-SQL/)
-3. **Phase 3 - Problem Solving** (Week 5+): Practice interview questions from [Solutions](./Solutions/)
-4. **Phase 4 - Mastery** (Ongoing): Revisit challenging modules and optimize solution approaches
+2. **Phase 2 - Advanced Techniques** (Week 3-4): Complete modules 6-19 from [Learn-SQL](./Learn-SQL/)
+3. **Phase 3 - Transactions & Safety** (Week 5): Review module 20 for transaction integrity and rollback patterns
+4. **Phase 4 - Problem Solving** (Week 6+): Practice interview questions from [Solutions](./Solutions/)
+5. **Phase 5 - Mastery** (Ongoing): Revisit challenging modules and optimize solution approaches
 
 ## Database Schema
 
@@ -150,12 +152,12 @@ Keep track of completed questions above in the table.
 ## 📚 Related Resources
 
 ### Learn-SQL Folder
-- **[Complete Learning Guide](./Learn-SQL/README.md)** - Detailed descriptions of all 19 modules
+- **[Complete Learning Guide](./Learn-SQL/README.md)** - Detailed descriptions of all 20 modules
 - **[Module 01: SQL Basics](./Learn-SQL/01_sql_basics.sql)** - Foundation concepts
 - **[Module 02: SQL Intermediate](./Learn-SQL/02_sql_intermediate.sql)** - JOINs and aggregations
 - **[Modules 03-05: Functions](./Learn-SQL/)** - String, DateTime, and NULL functions
 - **[Modules 06-08: Window Functions](./Learn-SQL/)** - Advanced analytics
-- **[Modules 09-19: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, and Triggers
+- **[Modules 09-20: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, Triggers, and Transactions
 
 ### Solutions Folder
 - **[40+ SQL Solutions](./Solutions/)** - Interview problem solutions with explanations
@@ -173,7 +175,7 @@ Keep track of completed questions above in the table.
 - Apply window functions to interview problems
 
 ### Advanced Path (3-5 weeks)
-- Master modules 9-19: Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, and Triggers
+- Master modules 9-20: Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, Triggers, and Transactions
 - Solve complex interview questions
 - Optimize queries using indexes and execution plans
 
