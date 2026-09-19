@@ -5,6 +5,11 @@ which you can execute by calling its name instead of rewriting the SQL every tim
 
 
 Why you need it — the core reasons? 
+We need stored procedures in SQL primarily because they act like reusable, secure, and high-performance functions saved directly inside the database. 
+Instead of writing and sending complex SQL queries from your application over and over again, you save the logic once on the database server and call it whenever you need it.
+
+
+
 - Code Reusability - The same procedure can be called from various applications
 
 - Improved Performance - Stored procedures are precompiled and runs faster
@@ -51,7 +56,7 @@ SELECT
 FROM Sales.Customers
 WHERE Country = 'USA'
 
--- let's say we have alot of reports use the same previous query, 
+-- let's assume we have alot of reports use the same previous query, 
 -- and i want to use the power of SP to optimize of the performance 
 
 
@@ -84,14 +89,14 @@ so the power of using parameters make the stored procedure more reusable and dyn
 */
 
 
-ALTER PROCEDURE GetCustomerSummary @Country NVARCHAR(50) AS 
+ALTER PROCEDURE GetCustomerSummary @param_country NVARCHAR(50) AS 
 BEGIN 
 
     SELECT 
         COUNT(*) TotalCustomers, 
         AVG(Score) AvgScore 
     FROM Sales.Customers
-    WHERE Country = @Country
+    WHERE Country = @param_country
 
 END
 
@@ -99,8 +104,8 @@ END
 
 
 -- execute the procedure 
-EXEC GetCustomerSummary @Country='USA';
-EXEC GetCustomerSummary @Country='Germany'; 
+EXEC GetCustomerSummary @param_country='USA';
+EXEC GetCustomerSummary @param_country='Germany'; 
 
 ---------------------------------------------------------------------------
 
@@ -108,14 +113,14 @@ EXEC GetCustomerSummary @Country='Germany';
 /* let's say we are usually execute the stored procedure by using USA and I want to make the USA as Default */
 
 
-ALTER PROCEDURE GetCustomerSummary @Country NVARCHAR(50) = 'USA' AS 
+ALTER PROCEDURE GetCustomerSummary @param_country NVARCHAR(50) = 'USA' AS 
 BEGIN 
 
     SELECT 
         COUNT(*) TotalCustomers, 
         AVG(Score) AvgScore 
     FROM Sales.Customers
-    WHERE Country = @Country
+    WHERE Country = @param_country
 
 END
 
@@ -123,7 +128,7 @@ END
 
 -- execute the procedure 
 EXEC GetCustomerSummary ; -- USA 
-EXEC GetCustomerSummary @Country='Germany'; 
+EXEC GetCustomerSummary @param_country='Germany'; 
 
 
 -------------------------------------------------------------
@@ -131,14 +136,14 @@ EXEC GetCustomerSummary @Country='Germany';
 -- Multiple of SQL queries in the same SP  
 
 
-ALTER PROCEDURE GetCustomerSummary @Country NVARCHAR(50) = 'USA' AS 
+ALTER PROCEDURE GetCustomerSummary @param_country NVARCHAR(50) = 'USA' AS 
 BEGIN 
 
     SELECT 
         COUNT(*) TotalCustomers, 
         AVG(Score) AvgScore 
     FROM Sales.Customers
-    WHERE Country = @Country;
+    WHERE Country = @param_country;
     
     
     -- Find the Total Nr. of order and total sales for each country 
@@ -149,7 +154,7 @@ BEGIN
     FROM Sales.Orders O   
     JOIN Sales.Customers C   
     ON O.CustomerID = C.CustomerID 
-    WHERE c.Country  = @Country;
+    WHERE c.Country  = @param_country;
 
 END
 
@@ -158,7 +163,7 @@ END
 
 -- execute the procedure 
 EXEC GetCustomerSummary ; -- USA 
-EXEC GetCustomerSummary @Country='Germany'; 
+EXEC GetCustomerSummary @param_country='Germany'; 
 
 
 
@@ -170,20 +175,20 @@ EXEC GetCustomerSummary @Country='Germany';
 
 
 
-ALTER PROCEDURE GetCustomerSummary @Country NVARCHAR(50) = 'USA' AS 
+ALTER PROCEDURE GetCustomerSummary @param_country NVARCHAR(50) = 'USA' AS 
 BEGIN 
 
     DECLARE @TotalCustomers INT, @AverageScore FLOAT, @TotalOrders INT, @TotalSales INT; 
 
     -- generating report
     SELECT 
-        @TotalCustomers= COUNT(*) , 
+        @TotalCustomers= COUNT(*), 
         @AverageScore =  AVG(Score)  
     FROM Sales.Customers
-    WHERE Country = @Country;
+    WHERE Country = @param_country;
     
-    PRINT 'Total customers from ' +  @Country + ': ' + CAST(@TotalCustomers AS NVARCHAR);
-    PRINT 'Average Score from ' +  @Country + ': ' + CAST(@AverageScore AS NVARCHAR);
+    PRINT 'Total customers from ' +  @param_country + ': ' + CAST(@TotalCustomers AS NVARCHAR);
+    PRINT 'Average Score from ' +  @param_country + ': ' + CAST(@AverageScore AS NVARCHAR);
 
     PRINT '------------------------------------------------------------------------';
 
@@ -196,10 +201,10 @@ BEGIN
     FROM Sales.Orders O   
     JOIN Sales.Customers C   
     ON O.CustomerID = C.CustomerID 
-    WHERE c.Country  = @Country;
+    WHERE c.Country  = @param_country;
 
-    PRINT 'Total Orders from ' + @Country + ': ' + CAST(@TotalOrders AS NVARCHAR); 
-    PRINT 'Total Sales from ' + @Country + ': ' + CAST(@TotalSales AS NVARCHAR); 
+    PRINT 'Total Orders from ' + @param_country + ': ' + CAST(@TotalOrders AS NVARCHAR); 
+    PRINT 'Total Sales from ' + @param_country + ': ' + CAST(@TotalSales AS NVARCHAR); 
 
 END
 
@@ -363,3 +368,6 @@ END
 -- execute the procedure 
 EXEC GetCustomerSummary ; -- USA 
 EXEC GetCustomerSummary @Country='Germany'; 
+
+
+
