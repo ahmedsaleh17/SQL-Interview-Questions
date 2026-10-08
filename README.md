@@ -1,6 +1,6 @@
 # SQL-Interview-Questions & Learning Materials
 
-A comprehensive SQL learning and interview preparation repository combining foundational learning materials with real-world problem-solving solutions. Perfect for building SQL skills from basics to advanced techniques and preparing for data interviews on [DataLemur](https://datalemur.com/).
+A comprehensive SQL learning and interview preparation repository combining foundational learning materials with real-world problem-solving solutions. Perfect for building SQL skills from basics to advanced techniques and preparing for data interviews on [DataLemur](https://datalemur.com/) and [DataDriven](https://datadriven.io/)
 
 ## 📁 Repository Structure
 
@@ -29,7 +29,7 @@ SQL-problemsolving/
 │   ├── 20_transactions.sql            # Transactions, ACID compliance, and rollback safety
 │   └── README.md                       # Complete learning guide
 │
-├── Solutions/                          # 🎯 Interview Question Solutions (46 Problems)
+├── Solutions/                          # 🎯 Interview Question Solutions (48 Problems)
 │   └── [Various .sql solution files]
 │
 ├── Resources/                          # 📖 Additional reference materials
@@ -40,7 +40,7 @@ SQL-problemsolving/
 ## Purpose
 
 ✅ **Structured Learning** - 20 progressive modules from beginner to advanced SQL  
-✅ **Interview Preparation** - 46 real interview questions with solutions  
+✅ **Interview Preparation** - 48 real interview questions with solutions  
 ✅ **Skill Development** - Master SQL from basics to optimization techniques  
 ✅ **Reference Material** - Quick access to SQL patterns and best practices  
 ✅ **Hands-On Practice** - Learn concepts then apply them to interview problems  
@@ -108,25 +108,26 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 17 | [Pharmacy Analytics (Part 1)](https://datalemur.com/questions/top-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-top-profitable-drugs.sql) |
 | 18 | [Pharmacy Analytics (Part 2)](https://datalemur.com/questions/non-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-non-profitable-drugs.sql) |
 | 19 | [Pharmacy Analytics (Part 3)](https://datalemur.com/questions/total-drugs-sales)| Easy | [Solution](./Solutions/Pharmacy-analytics-total-drugs-sales.sql) |
-| 20 | [Patient Support Analysis (Part 1)](https://datalemur.com/questions/frequent-callers)| Easy | [Solution](./Solutions/frequent-callers.sql) |
-| 21 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
-| 22 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
-| 23 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
-| 24 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
-| 25 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
-| 26 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
-| 27 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
-| 28 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
-| 29 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
-| 30 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
-| 31 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
-| 32 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
-| 33 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
-| 34 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
-| 35 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
-| 36 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
-| 37 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
-| 38 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
+| 20 | [Active Token Owners in 2026](https://datadriven.io/problems/active_token_owners_in_year)| Easy | [Solution](./Solutions/active_token_owners.sql) |
+| 21 | [Patient Support Analysis (Part 1)](https://datalemur.com/questions/frequent-callers)| Easy | [Solution](./Solutions/frequent-callers.sql) |
+| 22 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
+| 23 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
+| 24 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
+| 25 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
+| 26 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
+| 27 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
+| 28 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
+| 29 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
+| 30 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
+| 31 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
+| 32 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 33 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
+| 34 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
+| 35 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
+| 36 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
+| 37 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
+| 38 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
+| 39 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
 | 40 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
 | 41 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
 | 42 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
@@ -145,6 +146,10 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 - [Suspected Bot Sessions](./Solutions/suspected-bot-sessions.sql)
 - [Where the Fleet Lives](./Solutions/nodes_in_keys_regions.sql)
 - [Above Average Interactions](./Solutions/above_avg_interactions.sql)
+- [Campaign Bookend Engagement](./Solutions/campaign_engagement.sql)
+- [Active Campaigns](./Solutions/active_campaigns.sql)
+- [Above Average Product Prices](./Solutions/above_average_prices.sql)
+- [What's in a Name](./Solutions/what_is_in_a_name.sql)
 
 ## Progress
 
@@ -161,7 +166,7 @@ Keep track of completed questions above in the table.
 - **[Modules 09-20: Advanced Topics](./Learn-SQL/)** - Subqueries, CTEs, Views, Temp Tables, Indexes, Maintenance, Partitioning, Query Optimization, Stored Procedures, Triggers, and Transactions
 
 ### Solutions Folder
-- **[40+ SQL Solutions](./Solutions/)** - Interview problem solutions with explanations
+- **[48 SQL Solutions](./Solutions/)** - Interview problem solutions with explanations
 
 ## 🎯 Learning Recommendations
 
