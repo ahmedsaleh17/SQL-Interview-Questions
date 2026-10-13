@@ -40,7 +40,7 @@ SQL-problemsolving/
 ## Purpose
 
 ✅ **Structured Learning** - 20 progressive modules from beginner to advanced SQL  
-✅ **Interview Preparation** - 48 real interview questions with solutions  
+✅ **Interview Preparation** - 49 real interview questions with solutions  
 ✅ **Skill Development** - Master SQL from basics to optimization techniques  
 ✅ **Reference Material** - Quick access to SQL patterns and best practices  
 ✅ **Hands-On Practice** - Learn concepts then apply them to interview problems  
@@ -110,33 +110,34 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 19 | [Pharmacy Analytics (Part 3)](https://datalemur.com/questions/total-drugs-sales)| Easy | [Solution](./Solutions/Pharmacy-analytics-total-drugs-sales.sql) |
 | 20 | [Active Token Owners in 2026](https://datadriven.io/problems/active_token_owners_in_year)| Easy | [Solution](./Solutions/active_token_owners.sql) |
 | 21 | [Patient Support Analysis (Part 1)](https://datalemur.com/questions/frequent-callers)| Easy | [Solution](./Solutions/frequent-callers.sql) |
-| 22 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
-| 23 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
-| 24 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
-| 25 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
-| 26 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
-| 27 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
-| 28 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
-| 29 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
-| 30 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
-| 31 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
-| 32 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
-| 33 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
-| 34 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
-| 35 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
-| 36 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
-| 37 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
-| 38 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
-| 39 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
-| 40 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
-| 41 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
-| 42 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
-| 43 | [Where the Fleet Lives](https://datadriven.io/problems/nodes_in_key_regions)| Medium | [Solution](./Solutions/nodes_in_keys_regions.sql) |
-| 44 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
-| 45 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
-| 46 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
-| 47 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
-| 48 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 22 | [30-Day Page View Counts](https://datadriven.io/problems/30_day_page_view_counts)| Easy | [Solution](./Solutions/30-days-views.sql) |
+| 23 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
+| 24 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
+| 25 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
+| 26 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
+| 27 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
+| 28 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
+| 29 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
+| 30 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
+| 31 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
+| 32 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
+| 33 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 34 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
+| 35 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
+| 36 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
+| 37 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
+| 38 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
+| 39 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
+| 40 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
+| 41 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
+| 42 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
+| 43 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
+| 44 | [Where the Fleet Lives](https://datadriven.io/problems/nodes_in_key_regions)| Medium | [Solution](./Solutions/nodes_in_keys_regions.sql) |
+| 45 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
+| 46 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
+| 47 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
+| 48 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
+| 49 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 
 ### Recently Added Solutions
 - [Best-Selling Product](./Solutions/best-selling-product.sql)
