@@ -136,8 +136,9 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 45 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
 | 46 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
 | 47 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
-| 48 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
-| 49 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 48 | [The Days That Line Up](https://datadriven.io/problems/the_days_that_line_up)| Medium | [Solution](./Solutions/data_pipes_success.sql) |
+| 49 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
+| 50 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 
 ### Recently Added Solutions
 - [Best-Selling Product](./Solutions/best-selling-product.sql)
