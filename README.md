@@ -137,21 +137,10 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 46 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
 | 47 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
 | 48 | [The Days That Line Up](https://datadriven.io/problems/the_days_that_line_up)| Medium | [Solution](./Solutions/data_pipes_success.sql) |
-| 49 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
-| 50 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 49 | [Above the Fold](https://datadriven.io/problems/above_the_fold)| Medium | [Solution](./Solutions/above_the_fold.sql) |
+| 50 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
+| 51 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 
-### Recently Added Solutions
-- [Best-Selling Product](./Solutions/best-selling-product.sql)
-- [Swapped Food Delivery](./Solutions/swapped_food_delivery.sql)
-- [International Call Percentage](./Solutions/international_call_percentage.sql)
-- [Cloud Costs Analysis](./Solutions/cloud_costs_analysis.sql)
-- [Suspected Bot Sessions](./Solutions/suspected-bot-sessions.sql)
-- [Where the Fleet Lives](./Solutions/nodes_in_keys_regions.sql)
-- [Above Average Interactions](./Solutions/above_avg_interactions.sql)
-- [Campaign Bookend Engagement](./Solutions/campaign_engagement.sql)
-- [Active Campaigns](./Solutions/active_campaigns.sql)
-- [Above Average Product Prices](./Solutions/above_average_prices.sql)
-- [What's in a Name](./Solutions/what_is_in_a_name.sql)
 
 ## Progress
 
