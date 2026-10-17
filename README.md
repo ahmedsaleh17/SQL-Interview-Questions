@@ -140,6 +140,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 49 | [Above the Fold](https://datadriven.io/problems/above_the_fold)| Medium | [Solution](./Solutions/above_the_fold.sql) |
 | 50 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
 | 51 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 51 | [Bargains and Budget-Busters](https://datadriven.io/problems/bargains_and_budget_busters)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 
 
 ## Progress
