@@ -90,59 +90,59 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | ID | DataLemur Question Link | Difficulty | My Solution |
 |:--:|:-----------------------:|:---------: |:-----------:|
 | 01 | [Histogram of Tweets](https://datalemur.com/questions/sql-histogram-tweets)| Easy | [Solution](./Solutions/Histogram-of-tweets.sql) |
-| 01 | [Where Users Linger](https://datadriven.io/problems/where_users_linger)| Easy | [Solution](./Solutions/users_linger.sql) |
-| 02 | [Data Science Skills](https://datalemur.com/questions/matching-skills)| Easy | [Solution](./Solutions/DataScience-skill.sql) |
-| 03 | [Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes)| Easy | [Solution](./Solutions/page-with-no-likes.sql) |
-| 04 | [Unfinished Parts](https://datalemur.com/questions/tesla-unfinished-parts)| Easy | [Solution](./Solutions/unfinished-parts.sql) |
-| 05 | [Laptop vs. Mobile Viewership](https://datalemur.com/questions/laptop-mobile-viewership)| Easy | [Solution](./Solutions/laptop-mobile-viewership.sql) |
-| 06 | [Average Post Hiatus (Part 1)](https://datalemur.com/questions/sql-average-post-hiatus-1)| Easy | [Solution](./Solutions/avg-post.sql) |
-| 07 | [Teams Power Users](https://datalemur.com/questions/teams-power-users)| Easy | [Solution](./Solutions/teams-power-users.sql) |
-| 08 | [Duplicate Job Listings](https://datalemur.com/questions/duplicate-job-listings)| Easy | [Solution](./Solutions/duplicate-job-listings.sql) |
-| 09 | [Cities With Completed Trades](https://datalemur.com/questions/completed-trades)| Easy | [Solution](./Solutions/cities-with-completed-trades.sql) |
-| 10 | [Average Review Ratings](https://datalemur.com/questions/sql-avg-review-ratings)| Easy | [Solution](./Solutions/average-review-ratings.sql) |
-| 11 | [Well Paid Employees](https://datalemur.com/questions/sql-well-paid-employees)| Easy | [Solution](./Solutions/well-paid-employees.sql) |
-| 12 | [Final Account Balance](https://datalemur.com/questions/final-account-balance)| Easy | [Solution](./Solutions/final-account-balance.sql) |
-| 13 | [App Click-through Rate (CTR)](https://datalemur.com/questions/click-through-rate)| Easy | [Solution](./Solutions/click-through-rate.sql) |
-| 14 | [IBM db2 Product Analytics](https://datalemur.com/questions/sql-ibm-db2-product-analytics)| Easy | [Solution](./Solutions/ibm-db2-product-analysis.sql) |
-| 15 | [Cards Issued Difference](https://datalemur.com/questions/cards-issued-difference)| Easy | [Solution](./Solutions/cards_issued_difference.sql) |
-| 16 | [Compressed Mean](https://datalemur.com/questions/alibaba-compressed-mean)| Easy | [Solution](./Solutions/compressed_mean.sql) |
-| 17 | [Pharmacy Analytics (Part 1)](https://datalemur.com/questions/top-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-top-profitable-drugs.sql) |
-| 18 | [Pharmacy Analytics (Part 2)](https://datalemur.com/questions/non-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-non-profitable-drugs.sql) |
-| 19 | [Pharmacy Analytics (Part 3)](https://datalemur.com/questions/total-drugs-sales)| Easy | [Solution](./Solutions/Pharmacy-analytics-total-drugs-sales.sql) |
-| 20 | [Active Token Owners in 2026](https://datadriven.io/problems/active_token_owners_in_year)| Easy | [Solution](./Solutions/active_token_owners.sql) |
-| 21 | [Patient Support Analysis (Part 1)](https://datalemur.com/questions/frequent-callers)| Easy | [Solution](./Solutions/frequent-callers.sql) |
-| 22 | [30-Day Page View Counts](https://datadriven.io/problems/30_day_page_view_counts)| Easy | [Solution](./Solutions/30-days-views.sql) |
-| 23 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
-| 24 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
-| 25 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
-| 26 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
-| 27 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
-| 28 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
-| 29 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
-| 30 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
-| 31 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
-| 32 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
-| 33 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
-| 34 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
-| 35 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
-| 36 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
-| 37 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
-| 38 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
-| 39 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
-| 40 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
-| 41 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
-| 42 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
-| 43 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
-| 44 | [Where the Fleet Lives](https://datadriven.io/problems/nodes_in_key_regions)| Medium | [Solution](./Solutions/nodes_in_keys_regions.sql) |
-| 45 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
-| 46 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
-| 47 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
-| 48 | [The Days That Line Up](https://datadriven.io/problems/the_days_that_line_up)| Medium | [Solution](./Solutions/data_pipes_success.sql) |
-| 49 | [Above the Fold](https://datadriven.io/problems/above_the_fold)| Medium | [Solution](./Solutions/above_the_fold.sql) |
-| 50 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
-| 51 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
-| 51 | [Bargains and Budget-Busters](https://datadriven.io/problems/bargains_and_budget_busters)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
-| 51 | [Content Sorted by Duration](https://datadriven.io/problems/content_sorted_by_duration)| Hard | [Solution](./Solutions/content_sorted_by_duration.sql) |
+| 02 | [Where Users Linger](https://datadriven.io/problems/where_users_linger)| Easy | [Solution](./Solutions/users_linger.sql) |
+| 03 | [Data Science Skills](https://datalemur.com/questions/matching-skills)| Easy | [Solution](./Solutions/DataScience-skill.sql) |
+| 04 | [Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes)| Easy | [Solution](./Solutions/page-with-no-likes.sql) |
+| 05 | [Unfinished Parts](https://datalemur.com/questions/tesla-unfinished-parts)| Easy | [Solution](./Solutions/unfinished-parts.sql) |
+| 06 | [Laptop vs. Mobile Viewership](https://datalemur.com/questions/laptop-mobile-viewership)| Easy | [Solution](./Solutions/laptop-mobile-viewership.sql) |
+| 07 | [Average Post Hiatus (Part 1)](https://datalemur.com/questions/sql-average-post-hiatus-1)| Easy | [Solution](./Solutions/avg-post.sql) |
+| 08 | [Teams Power Users](https://datalemur.com/questions/teams-power-users)| Easy | [Solution](./Solutions/teams-power-users.sql) |
+| 09 | [Duplicate Job Listings](https://datalemur.com/questions/duplicate-job-listings)| Easy | [Solution](./Solutions/duplicate-job-listings.sql) |
+| 10 | [Cities With Completed Trades](https://datalemur.com/questions/completed-trades)| Easy | [Solution](./Solutions/cities-with-completed-trades.sql) |
+| 11 | [Average Review Ratings](https://datalemur.com/questions/sql-avg-review-ratings)| Easy | [Solution](./Solutions/average-review-ratings.sql) |
+| 12 | [Well Paid Employees](https://datalemur.com/questions/sql-well-paid-employees)| Easy | [Solution](./Solutions/well-paid-employees.sql) |
+| 13 | [Final Account Balance](https://datalemur.com/questions/final-account-balance)| Easy | [Solution](./Solutions/final-account-balance.sql) |
+| 14 | [App Click-through Rate (CTR)](https://datalemur.com/questions/click-through-rate)| Easy | [Solution](./Solutions/click-through-rate.sql) |
+| 15 | [IBM db2 Product Analytics](https://datalemur.com/questions/sql-ibm-db2-product-analytics)| Easy | [Solution](./Solutions/ibm-db2-product-analysis.sql) |
+| 16 | [Cards Issued Difference](https://datalemur.com/questions/cards-issued-difference)| Easy | [Solution](./Solutions/cards_issued_difference.sql) |
+| 17 | [Compressed Mean](https://datalemur.com/questions/alibaba-compressed-mean)| Easy | [Solution](./Solutions/compressed_mean.sql) |
+| 18 | [Pharmacy Analytics (Part 1)](https://datalemur.com/questions/top-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-top-profitable-drugs.sql) |
+| 19 | [Pharmacy Analytics (Part 2)](https://datalemur.com/questions/non-profitable-drugs)| Easy | [Solution](./Solutions/Pharmacy-analytics-non-profitable-drugs.sql) |
+| 20 | [Pharmacy Analytics (Part 3)](https://datalemur.com/questions/total-drugs-sales)| Easy | [Solution](./Solutions/Pharmacy-analytics-total-drugs-sales.sql) |
+| 21 | [Active Token Owners in 2026](https://datadriven.io/problems/active_token_owners_in_year)| Easy | [Solution](./Solutions/active_token_owners.sql) |
+| 22 | [Patient Support Analysis (Part 1)](https://datalemur.com/questions/frequent-callers)| Easy | [Solution](./Solutions/frequent-callers.sql) |
+| 23 | [30-Day Page View Counts](https://datadriven.io/problems/30_day_page_view_counts)| Easy | [Solution](./Solutions/30-days-views.sql) |
+| 24 | [User's Third Transaction](https://datalemur.com/questions/sql-third-transaction)| Medium | [Solution](./Solutions/third-transaction.sql) |
+| 25 | [Second Highest Salary](https://datalemur.com/questions/sql-second-highest-salary)| Medium | [Solution](./Solutions/second-highest-salary.sql) |
+| 26 | [Sending vs. Opening Snaps](https://datalemur.com/questions/time-spent-snaps)| Medium | [Solution](./Solutions/sending_vs_opening_snaps.sql) |
+| 27 | [Tweets' Rolling Averages](https://datalemur.com/questions/rolling-average-tweets)| Medium | [Solution](./Solutions/tweets_moving_avg.sql) |
+| 28 | [Highest-Grossing Items](https://datalemur.com/questions/sql-highest-grossing)| Medium | [Solution](./Solutions/highest_grossing_items.sql) |
+| 29 | [Top Three Salaries](https://datalemur.com/questions/sql-top-three-salaries)| Medium | [Solution](./Solutions/top_three_salaries.sql) |
+| 30 | [Signup Activation Rate](https://datalemur.com/questions/signup-confirmation-rate)| Medium | [Solution](./Solutions/signup_activation_rate.sql) |
+| 31 | [Spotify Streaming History](https://datalemur.com/questions/spotify-streaming-history)| Medium | [Solution](./Solutions/spotify_streaming_hist.sql) |
+| 32 | [Supercloud Customer](https://datalemur.com/questions/supercloud-customer)| Medium | [Solution](./Solutions/supercloud_customers.sql) |
+| 33 | [Odd and Even Measurements](https://datalemur.com/questions/odd-even-measurements)| Medium | [Solution](./Solutions/odd_even_measurements.sql) |
+| 34 | [FAANG Stock Min-Max (Part 1)](https://datalemur.com/questions/sql-bloomberg-stock-min-max-1)| Medium | [Solution](./Solutions/fanng_stock_min_max.sql) |
+| 35 | [Swapped Food Delivery](https://datalemur.com/questions/sql-swapped-food-delivery)| Medium | [Solution](./Solutions/swapped_food_delivery.sql) |
+| 36 | [Best-Selling Product](https://datalemur.com/questions/best-selling-products)| Medium | [Solution](./Solutions/best-selling-product.sql) |
+| 37 | [User Shopping Sprees](https://datalemur.com/questions/amazon-shopping-spree)| Medium | [Solution](./Solutions/user-shopping-sprees.sql) |
+| 38 | [Histogram of Users and Purchases](https://datalemur.com/questions/histogram-users-purchases)| Medium | [Solution](./Solutions/histogram-users-purchases.sql) |
+| 39 | [Compressed Mode](https://datalemur.com/questions/alibaba-compressed-mode)| Medium | [Solution](./Solutions/compressed-mode.sql) |
+| 40 | [Card Launch Success](https://datalemur.com/questions/card-launch-success)| Medium | [Solution](./Solutions/card-launch-sucess.sql) |
+| 41 | [International Call Percentage](https://datalemur.com/questions/international-call-percentage)| Medium | [Solution](./Solutions/international_call_percentage.sql) |
+| 42 | [Patient Support Analysis (Part 2)](https://datalemur.com/questions/uncategorized-calls-percentage)| Medium | [Solution](./Solutions/patient-support-analysis.sql) |
+| 43 | [Cloud Costs Analysis](https://datadriven.io/problems/above_average_cloud_spend)| Medium | [Solution](./Solutions/cloud_costs_analysis.sql) |
+| 44 | [Suspected Bot Sessions](https://datadriven.io/problems/suspected_bot_sessions)| Medium | [Solution](./Solutions/suspected-bot-sessions.sql) |
+| 45 | [Where the Fleet Lives](https://datadriven.io/problems/nodes_in_key_regions)| Medium | [Solution](./Solutions/nodes_in_keys_regions.sql) |
+| 46 | [Above Average Product Prices](https://datadriven.io/problems/above_average_product_prices)| Medium | [Solution](./Solutions/above_average_prices.sql) |
+| 47 | [What's in a Name](https://datadriven.io/problems/what_s_in_a_name)| Medium | [Solution](./Solutions/what_is_in_a_name.sql) |
+| 48 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
+| 49 | [The Days That Line Up](https://datadriven.io/problems/the_days_that_line_up)| Medium | [Solution](./Solutions/data_pipes_success.sql) |
+| 50 | [Above the Fold](https://datadriven.io/problems/above_the_fold)| Medium | [Solution](./Solutions/above_the_fold.sql) |
+| 51 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
+| 52 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 53 | [Bargains and Budget-Busters](https://datadriven.io/problems/bargains_and_budget_busters)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 54 | [Content Sorted by Duration](https://datadriven.io/problems/content_sorted_by_duration)| Hard | [Solution](./Solutions/content_sorted_by_duration.sql) |
 
 
 ## Progress
