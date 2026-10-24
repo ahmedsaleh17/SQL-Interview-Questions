@@ -90,6 +90,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | ID | DataLemur Question Link | Difficulty | My Solution |
 |:--:|:-----------------------:|:---------: |:-----------:|
 | 01 | [Histogram of Tweets](https://datalemur.com/questions/sql-histogram-tweets)| Easy | [Solution](./Solutions/Histogram-of-tweets.sql) |
+| 01 | [Where Users Linger](https://datadriven.io/problems/where_users_linger)| Easy | [Solution](./Solutions/users_linger.sql) |
 | 02 | [Data Science Skills](https://datalemur.com/questions/matching-skills)| Easy | [Solution](./Solutions/DataScience-skill.sql) |
 | 03 | [Page With No Likes](https://datalemur.com/questions/sql-page-with-no-likes)| Easy | [Solution](./Solutions/page-with-no-likes.sql) |
 | 04 | [Unfinished Parts](https://datalemur.com/questions/tesla-unfinished-parts)| Easy | [Solution](./Solutions/unfinished-parts.sql) |
@@ -141,6 +142,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 50 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
 | 51 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 | 51 | [Bargains and Budget-Busters](https://datadriven.io/problems/bargains_and_budget_busters)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
+| 51 | [Content Sorted by Duration](https://datadriven.io/problems/content_sorted_by_duration)| Hard | [Solution](./Solutions/content_sorted_by_duration.sql) |
 
 
 ## Progress
