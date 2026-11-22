@@ -139,6 +139,7 @@ See the [Learn-SQL README](./Learn-SQL/README.md#-database-schema) for the compl
 | 48 | [Active Campaigns](https://datadriven.io/problems/active_campaigns)| Medium | [Solution](./Solutions/active_campaigns.sql) |
 | 49 | [The Days That Line Up](https://datadriven.io/problems/the_days_that_line_up)| Medium | [Solution](./Solutions/data_pipes_success.sql) |
 | 50 | [Above the Fold](https://datadriven.io/problems/above_the_fold)| Medium | [Solution](./Solutions/above_the_fold.sql) |
+| 50 | [Active Users With April Transactions](https://datadriven.io/problems/active_users_with_april_transactions)| Medium | [Solution](./Solutions/above_the_fold.sql) |
 | 51 | [Above Average Interactions](https://datadriven.io/problems/above_average_interactions)| Hard | [Solution](./Solutions/above_avg_interactions.sql) |
 | 52 | [Campaign Bookend Engagement](https://datadriven.io/problems/campaign_bookend_engagement)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
 | 53 | [Bargains and Budget-Busters](https://datadriven.io/problems/bargains_and_budget_busters)| Hard | [Solution](./Solutions/campaign_engagement.sql) |
